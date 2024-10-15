@@ -196,11 +196,17 @@ body {
 /* --------------------------- work ---------------------------------*/
 
 
-#imageCataloqueFilms {
+.imgWork {
   border-radius: 5%;
+  filter: grayscale(100%);
   }
-  
 
+.imgWork:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+  
 
 
 /* --------------------------- skills ---------------------------------*/
