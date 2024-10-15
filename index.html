@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- Favicon -->
+    <link href="../../favicon.ico" rel="icon" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/kTc5sdphDBWlvs27k2eTvVHMp7k9mZVbYq3pnlGxAc5TfFsxQyB51+qXg58wTyz63S6g5H5zKh4pg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>CV Eduardo Ramos</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <i class="bi bi-briefcase fs-2"></i>
+        <a class="navbar-brand ms-3" href="#">Eduardo Ramos</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">À Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#timelinesection">Expérience</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- INTRO SECTION -->
+    <section class="section-image position-relative text-white">
+      <div class="img-overlay position-absolute w-100 h-100">
+        <img
+          src="./images/leptop.jpg"
+          class="img-fluid w-100 h-100 object-fit-cover"
+          alt="Leptop Background Image"
+        />
+      </div>
+
+      <div
+        class="intro position-relative z-index-1 text-center d-flex flex-column justify-content-center align-items-center vh-100"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h5 class="text-uppercase">Bonjour ! Je suis</h5>
+              <h1 class="display-4 fw-bold">Eduardo Ramos</h1>
+              <h4 class="text-uppercase">
+                Étudiant en Titre Professionnel Développeur Web & Web Mobile
+              </h4>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-12">
+              <div class="social d-flex justify-content-center gap-3">
+                <a
+                  href="https://www.linkedin.com/in/eduardo-silva-ramos-b77250314/"
+                  target="_blank"
+                  aria-label="LinkedIn Profile"
+                >
+                  <i class="bi bi-linkedin fs-1"></i>
+                </a>
+                <a
+                  href="https://github.com/edusilvaramos"
+                  target="_blank"
+                  aria-label="GitHub Profile"
+                >
+                  <i class="bi bi-github fs-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottom mt-5">
+            <a href="#about" class="text-decoration-none text-light">
+              <div class="mouse-icon">
+                <div class="scroll"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-primary py-5" id="about">
+      <!-- ABOUT SECTION -->
+
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Section Image -->
+          <div class="col-lg-4">
+            <img
+              id="imageMe"
+              class="img-fluid rounded-circle mb-3"
+              src="./images/me.heic"
+              alt="Eduardo Ramos"
+            />
+            <!-- Informations de contact -->
+            <ul class="list-unstyled contact-info">
+              <li>
+                <i class="bi bi-envelope"></i>
+                <a href="mailto:edusilvaramos@hotmail.com"
+                  >edusilvaramos@hotmail.com</a
+                >
+              </li>
+
+              <li>
+                <i class="bi bi-geo-alt"></i> Adresse : 77550, Moissy-Cramayel,
+                France
+              </li>
+              <li>
+                <i class="bi bi-briefcase"></i> Disponibilité : Télétravail ou
+                sur site
+              </li>
+              <li>
+                <i class="bi bi-car-front"></i> Permis de conduire : B1
+                (Véhicule personnel)
+              </li>
+              <li><i class="bi bi-calendar3"></i> Âge : 26 ans</li>
+            </ul>
+            <!-- Bouton de téléchargement sous l'image -->
+            <a
+              href="./CV_Eduardo_RAMOS.pdf"
+              target="_blank"
+              class="btn btn-outline-primary mt-3"
+              id="downloadBtn"
+            >
+              <i class="bi bi-eye me-2"></i> CV
+            </a>
+          </div>
+
+          <!-- Section À propos de moi -->
+          <div class="col-lg-8">
+            <h2>À propos de moi</h2>
+            <hr />
+            <p>
+              Bonjour ! J'ai toujours été passionné par les technologies liées à
+              la recherche et à la manipulation des données, ainsi que par la
+              manière dont les plateformes et les entreprises gèrent ces
+              informations et leur impact sur notre quotidien. Cette curiosité
+              m'a également amené à m'intéresser au fonctionnement des
+              applications et des systèmes web, ce qui m'a naturellement orienté
+              vers le domaine de l'informatique, notamment l'analyse des données
+              et ses outils.
+            </p>
+            <p>
+              Au Brésil, après avoir obtenu mon Baccalauréat d'administration,
+              j'ai poursuivi deux ans d'études en analyse et développement de
+              systèmes, ce qui m'a permis d'acquérir des bases en SQL et en
+              programmation Python. Aujourd'hui, je souhaite aller plus loin en
+              apprenant et en pratiquant aux côtés de professionnels de
+              l'industrie, afin de développer des compétences approfondies et
+              pratiques. Pour moi, un stage est une opportunité de mettre en
+              pratique mes connaissances tout en continuant à apprendre et à
+              évoluer.
+            </p>
+            <p>
+              Mon objectif à long terme est de devenir développeur full-stack,
+              capable de concevoir et de déployer des systèmes et applications
+              web innovants. J'ai également des projets personnels, notamment le
+              développement d'une application web visant à faciliter le partage
+              des tâches ménagères entre colocataires.
+            </p>
+
+            <h5>Mieux me connaître</h5>
+            <ul>
+              <li>
+                Passionné par la lecture, les podcasts et les livres audio ;
+              </li>
+              <li>
+                Intéressé par la politique, notamment en France, au Brésil et au
+                Portugal, des pays où j'ai eu l'occasion de vivre ;
+              </li>
+              <li>
+                Fasciné par la littérature et la culture, avec un intérêt
+                particulier pour Harry Potter, Le Hobbit, Les Chroniques de
+                Narnia, Le Seigneur des Anneaux et Le Nom du Vent ;
+              </li>
+              <li>
+                Curieux des théories sociales, à la fois politiques et
+                psychologiques ;
+              </li>
+              <li>
+                Amateur d'échecs, que ce soit en ligne ou en partie en
+                présentiel.
+              </li>
+              <li>Amateur de café</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What I have done -->
+    <section
+      class="section-image py-5"
+      id="skills"
+      style="background-color: #bdb9b9"
+    >
+      <div class="container">
+        <!-- Titre de la section -->
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="text-black">Ce que j'ai Creé</h2>
+
+            <hr class="w-50 mx-auto" style="border-top: 2px solid #000000" />
+          </div>
+        </div>
+        <div class="row text-center">
+          <!-- Outils bureautiques -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-dark text-light">
+              <div class="card-body">
+                <h3 class="mt-3">Catalogue de Films Interactif</h3>
+                <img
+                  src="./images/pexels-pixabay-274937.jpg"
+                  alt=""
+                  class="img-fluid mt-3"
+                  id="imageCataloqueFilms"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Compétences interpersonnelles -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-dark text-light">
+              <div class="card-body">
+                <h3 class="mt-3">Pizzaria en Ligne</h3>
+                <img
+                  src="./images/pexels-valeriya-1484516.jpg"
+                  alt=""
+                  class="img-fluid mt-3"
+                  id="imagePizzaria"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Langues -->
+        </div>
+      </div>
+    </section>
+    <!-- SECTION COMPÉTENCES -->
+    <section
+      class="section-image py-5"
+      id="skills"
+      style="background-color: #000"
+    >
+      <div class="container">
+        <!-- Titre de la section -->
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="text-white">Compétences</h2>
+            <p class="lead text-light">
+              Voici quelques-unes de mes compétences clés
+            </p>
+            <hr class="w-50 mx-auto" style="border-top: 2px solid #fff" />
+          </div>
+        </div>
+
+        <!-- Grille de compétences -->
+        <div class="row text-center">
+          <!-- Compétences informatiques -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-dark text-light">
+              <div class="card-body">
+                <i class="bi bi-laptop display-4 text-primary text-light"></i>
+                <h3 class="mt-3">Programmation</h3>
+                <br />
+                <ul class="list-unstyled text-start">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>PHP</li>
+                  <li>Symfony</li>
+                  <li>Python</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Outils bureautiques -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-dark text-light">
+              <div class="card-body">
+                <i class="bi bi-display display-4 text-success text-light"></i>
+                <h3 class="mt-3">Outils bureautiques</h3>
+                <br />
+                <ul class="list-unstyled text-start">
+                  <li>macOS</li>
+                  <li>Windows</li>
+                  <li>Microsoft Office</li>
+                  <li>Outils Google</li>
+                  <li>Trello</li>
+                  <li>Discord</li>
+                  <li>Slack</li>
+                  <li>Figma</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Compétences interpersonnelles -->
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-dark text-light">
+              <div class="card-body">
+                <i class="bi bi-people display-4 text-warning text-light"></i>
+                <h3 class="mt-3">Compétences interpersonnelles</h3>
+                <br />
+                <ul class="list-unstyled text-start">
+                  <li>Flexibilité</li>
+                  <li>Précision</li>
+                  <li>Adaptabilité</li>
+                  <li>Réactivité</li>
+                  <li>Communication</li>
+                  <li>Collaboration</li>
+                  <li>Autonomie</li>
+                  <li>Résolution de problèmes</li>
+                  <li>Esprit critique</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Langues -->
+          <div class="col-12 mb-4">
+            <div
+              class="card h-100 shadow-sm border-0 bg-dark text-light"
+              style="width: 100%; height: 250px"
+            >
+              <div class="card-body">
+                <i
+                  class="bi bi-chat-dots display-4 text-warning text-light"
+                ></i>
+                <h3 class="mt-3">Langues</h3>
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul class="list-unstyled text-start">
+                      <li>
+                        Anglais :<br />
+                        With a focus on leveraging collective talents, I am
+                        eager to contribute to dynamic teams that thrive on
+                        creativity and effective communication.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="list-unstyled text-start">
+                      <li>
+                        Portugais :<br />
+                        Apaixonado pelo desenvolvimento de estratégias
+                        colaborativas, estou à procura de posições que valorizem
+                        a iniciativa pessoal e o espírito de equipe.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="list-unstyled text-start">
+                      <li>
+                        Français :<br />
+                        Passionné par l'innovation et l'amélioration continue,
+                        je recherche des opportunités qui mettent au défi mes
+                        compétences dans un environnement collaboratif.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DE LA LIGNE DU TEMPS -->
+    <section class="section-primary py-5" id="timelinesection">
+      <div class="container">
+        <!-- En-tête de la section -->
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2>Voici quelques informations sur mon expérience</h2>
+
+            <hr class="w-50 mx-auto" />
+          </div>
+        </div>
+        <!-- Ligne du temps -->
+
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Colonne Éducation -->
+            <h3 class="mb-4">Éducation</h3>
+            <ul class="timeline">
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Titre Professionnel Développeur Web & Mobile</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Septembre 2024 - Avril 2025 | INSY2S</small
+                    >
+                  </p>
+                  <div class="list-container timeline-body">
+                    <ul class="column">
+                      <li>Responsabilité Numérique</li>
+                      <li>Algorithmes</li>
+                      <li>Gestion de Projet/Scrum</li>
+                      <li>Prototypage UI/UX</li>
+                      <li>Git</li>
+                      <li>HTML/CSS</li>
+                      <li>Bootstrap</li>
+                      <li>Éco-conception Web</li>
+                    </ul>
+                    <ul class="column">
+                      <li>JavaScript</li>
+                      <li>React</li>
+                      <li>WordPress</li>
+                      <li>PHP</li>
+                      <li>SQL</li>
+                      <li>Vulnérabilités Majeures en Sécurité</li>
+                      <li>Symfony</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Sécurité Numérique</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Juillet 2024 | SecNumacadémie</small
+                    >
+                  </p>
+                  <div class="timeline-body">
+                    <ul>
+                      <li>Présentation de l'ANSSI,</li>
+                      <li>Sécurité des Authentifications,</li>
+                      <li>Sécurité de l'Internet,</li>
+                      <li>Sécurité des Postes de Travail et Nomades.</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Compétences de Base Professionnelles</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Novembre 2023 - Mars 2024 | GRETA Combs-la-Ville</small
+                    >
+                  </p>
+                  <div class="timeline-body">
+                    <ul>
+                      <li>Bureautique;</li>
+                      <li>Projet Professionnel;</li>
+                      <li>Remise à Niveau en Français, Niveau C1 CECR</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Baccalauréat reconnu en France par Enic Naric</h4>
+                  <p><small class="text-muted">Juillet 2023</small></p>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Analyse et Développement de Systèmes</h4>
+                  <p><small class="text-muted">2017 - 2019</small></p>
+                  <div class="timeline-body">
+                    <p>
+                      Uninter Curitiba Polo Praça Tiradentes, Curitiba, Brésil
+                    </p>
+                    <ul>
+                      <li>Logique de Programmation et Algorithmes;</li>
+                      <li>Programmation Orientée Objet (Python);</li>
+                      <li>Analyse des Systèmes d'Exploitation.</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Baccalauréat d'administration en Alternance</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Janvier 2014 - Novembre 2017</small
+                    >
+                  </p>
+                  <p>
+                    Colégio Estadual Senhorinha de Moraes Sarmento, Curitiba,
+                    Brésil
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <!-- Colonne Expérience Professionnelle -->
+            <h3 class="mb-4">Expérience Professionnelle</h3>
+            <ul class="timeline">
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Préparateur de Commandes (intérimaire)</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Avril 2023 - Juin 2024 | Kuehne + Nagel, Lieusaint</small
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Enregistrer la réception des produits dans le système ;
+                    </li>
+                    <li>
+                      Imprimer et rassembler les articles pour préparer la
+                      commande ;
+                    </li>
+                    <li>
+                      Utiliser des équipements spécifiques de préparation :
+                      chariot, filmeuse, outils informatiques.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Vendeur Polyvalent (Alimentaire)</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Août 2022 - Mars 2023 | Aux Délices du Portugal,
+                      Brie-Comte-Robert</small
+                    >
+                  </p>
+                  <ul>
+                    <li>Service client ;</li>
+                    <li>Réassortiment des stocks ;</li>
+                    <li>
+                      Réapprovisionnement des réfrigérateurs et congélateurs ;
+                    </li>
+                    <li>Cuisson du pain.</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Assistant Support Technique</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Janvier 2022 - Juillet 2022 | NOS Portugal, Porto</small
+                    >
+                  </p>
+                  <div class="timeline-body">
+                    <ul>
+                      <li>Support technique ;</li>
+                      <li>Diagnostic des protocoles réseau ;</li>
+                      <li>
+                        Technologies télécoms : services TV, internet et
+                        téléphonie.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-badge">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div class="timeline-panel">
+                  <h4>Assistant Administratif (Gestion des Opérations)</h4>
+                  <p>
+                    <small class="text-muted"
+                      >Décembre 2014 - Septembre 2019 | Fédération UNIMED du
+                      Paraná, Curitiba, Brésil</small
+                    >
+                  </p>
+                  <ul>
+                    <li>
+                      Assister les franchisés dans les processus administratifs
+                      ;
+                    </li>
+                    <li>Contribuer dans les processus d'audit ;</li>
+                    <li>
+                      Contrôler des tableaux et graphiques (requêtes QlikView).
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Créditos -->
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <p>Made by Eduardo Ramos</p>
+          </div>
+
+          <!-- Redes Sociais -->
+          <div class="col-md-4 text-center">
+            <div class="social-footer">
+              <a
+                href="https://www.linkedin.com/in/eduardo-silva-ramos-b77250314/"
+                target="_blank"
+                aria-label="LinkedIn Profile"
+                style="text-decoration: none"
+              >
+                <i class="bi bi-linkedin fs-3"></i>
+              </a>
+              <a
+                href="https://github.com/edusilvaramos"
+                target="_blank"
+                class="text-white mx-2"
+                style="text-decoration: none"
+              >
+                <i class="bi bi-github fs-3"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Direitos  -->
+          <div class="col-md-4 text-center">
+            <p>2024 Eduardo Ramos</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
