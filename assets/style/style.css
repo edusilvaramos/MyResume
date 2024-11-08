@@ -62,7 +62,10 @@ nav a:hover{
 }
 
 .social a:hover {
-  opacity: 0.6;
+  transform: scale(1.2);
+}
+.social a {
+  transition: transform 0.2s ease-in-out;
 }
 
 /* ----- Mouse Icon -----*/
