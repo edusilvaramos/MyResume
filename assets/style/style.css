@@ -208,14 +208,14 @@ body {
 
 .imgWork {
   border-radius: 5%;
-  filter: grayscale(100%);
+  width: 30rem !important;
+  height: 15rem !important;
   }
 
 .imgWork:hover{
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.5s;
-  filter: grayscale(0%);
 }
   
 
@@ -231,6 +231,10 @@ body {
 
 
 /* --------------------------- timeline ---------------------------------*/
+.border-top{
+  border-top: 1px solid #505050 !important;
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
+}
 
 #timelinesection {
   background-color: #f8f9fa;
